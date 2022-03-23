@@ -1,0 +1,3 @@
+include ':ConfigHelper'
+include ':app'
+rootProject.name = "ConfigHelper"

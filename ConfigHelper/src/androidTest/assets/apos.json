@@ -1,0 +1,333 @@
+{
+  "version": "1.0",
+  "aPosEntries": [
+    {
+      "logicalName": "DL-Portal-Scanner",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.confighelper.InstrumentedTestFactory",
+        "serviceClass": "com.datalogic.dlapos.confighelper.DLPortalScannerService"
+      },
+      "vendor": {
+        "name": "Datalogic ADC Inc.",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "apos": {
+        "category": "PortalScanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "PortalScannerService",
+        "name": "PortalScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "decodeType",
+          "type": "String",
+          "value": "warhol"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "TCPIP"
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "value": "DLADCPortalScanner"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLA Jade Portal Scanner"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLA Portal Scanner"
+        },
+        {
+          "name": "imageBuffers",
+          "type": "String",
+          "value": "1"
+        },
+        {
+          "name": "ipAddress",
+          "type": "String",
+          "value": "10.1.10.168"
+        },
+        {
+          "name": "ipPort",
+          "type": "String",
+          "value": "23959"
+        },
+        {
+          "name": "laneNumber",
+          "type": "String",
+          "value": "0"
+        },
+        {
+          "name": "MBeansEnabled",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "WMIEnabled",
+          "type": "String",
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "logicalName": "DLS-GM4100-USB-OEM",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.confighelper.InstrumentedTestFactory",
+        "serviceClass": "com.datalogic.dlapos.confighelper.GM4100Service"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "jpos": {
+        "category": "Scanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "USB"
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "value": "USBHHScanner"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS Gryphon M4100 Scanner"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS Gryphon M4100 Scanner"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "1214"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "4b00"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        }
+      ]
+    },
+    {
+      "logicalName": "FACTORY_NOT_EXISTS",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.confighelper.NotExistentFactory",
+        "serviceClass": "com.datalogic.dlapos.confighelper.GM4100Service"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "jpos": {
+        "category": "Scanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "USB"
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "value": "USBHHScanner"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS Gryphon M4100 Scanner"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS Gryphon M4100 Scanner"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "1214"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "4b00"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        }
+      ]
+    },
+    {
+      "logicalName": "SERVICE_NOT_EXISTS",
+      "creation": {
+        "factoryClass": "com.datalogic.dlapos.confighelper.InstrumentedTestFactory",
+        "serviceClass": "com.datalogic.dlapos.confighelper.NotExistentService"
+      },
+      "vendor": {
+        "name": "DLA",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "jpos": {
+        "category": "Scanner",
+        "version": "1.13"
+      },
+      "product": {
+        "description": "ScannerService",
+        "name": "ScannerService",
+        "url": "http://www.adc.datalogic.com"
+      },
+      "properties": [
+        {
+          "name": "canAcceptStatisticsCmd",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canCompareFirmwareVersion",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "canNotifyPowerChange",
+          "type": "String",
+          "value": "True"
+        },
+        {
+          "name": "canUpdateFirmware",
+          "type": "String",
+          "value": "False"
+        },
+        {
+          "name": "deviceBus",
+          "type": "String",
+          "value": "USB"
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "value": "USBHHScanner"
+        },
+        {
+          "name": "deviceDescription",
+          "type": "String",
+          "value": "DLS Gryphon M4100 Scanner"
+        },
+        {
+          "name": "deviceName",
+          "type": "String",
+          "value": "DLS Gryphon M4100 Scanner"
+        },
+        {
+          "name": "productId",
+          "type": "String",
+          "value": "1214"
+        },
+        {
+          "name": "usage",
+          "type": "String",
+          "value": "4b00"
+        },
+        {
+          "name": "vendorId",
+          "type": "String",
+          "value": "05f9"
+        }
+      ]
+    }
+  ]
+}
