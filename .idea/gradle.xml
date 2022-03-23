@@ -13,7 +13,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ConfigHelper" />
+            <option value="$PROJECT_DIR$/aposconfig" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

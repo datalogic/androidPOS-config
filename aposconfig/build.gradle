@@ -85,3 +85,7 @@ task sourcesJar(type: Jar) {
 //        maven {url "$homePath/AndroidRepo"}
 //    }
 //}
+
+artifacts {
+    archives sourcesJar
+}
