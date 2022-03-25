@@ -63,26 +63,26 @@ afterEvaluate {
 //    def homePath = System.properties['user.home']
         publications {
             release(MavenPublication) {
-                from components.release
+                //from components.release
                 groupId group
                 //You can either define these here or get them from project conf elsewhere
                 artifactId 'androidPOS-config'
                 version libVersion
-//                artifact("$buildDir/outputs/aar/aposconfig-release.aar")
+                artifact("$buildDir/outputs/aar/aposconfig-release.aar")
                 artifact(sourcesJar)
                 //aar artifact you want to publish
 
                 //generate pom nodes for dependencies
-//                pom.withXml {
-//                    def dependenciesNode = asNode().appendNode('dependencies')
-//                    configurations.implementation.allDependencies.each { dependency ->
-//                        def dependencyNode = dependenciesNode.appendNode('dependency')
-//                        dependencyNode.appendNode('groupId', dependency.group)
-//                        dependencyNode.appendNode('artifactId', dependency.name)
-//                        dependencyNode.appendNode('version', dependency.version)
-//                        dependencyNode.appendNode('scope', 'implementation')
-//                    }
-//                }
+                pom.withXml {
+                    def dependenciesNode = asNode().appendNode('dependencies')
+                    configurations.implementation.allDependencies.each { dependency ->
+                        def dependencyNode = dependenciesNode.appendNode('dependency')
+                        dependencyNode.appendNode('groupId', dependency.group)
+                        dependencyNode.appendNode('artifactId', dependency.name)
+                        dependencyNode.appendNode('version', dependency.version)
+                        dependencyNode.appendNode('scope', 'implementation')
+                    }
+                }
             }
         }
 
