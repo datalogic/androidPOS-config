@@ -15,8 +15,10 @@ buildscript {
 
 allprojects {
     repositories {
+        def homePath = System.properties['user.home']
         google()
         mavenCentral()
+        maven {url "$homePath/.m2/repository"}
         maven { url 'https://jitpack.io' }
     }
 }
